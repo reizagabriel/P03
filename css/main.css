@@ -1,0 +1,87 @@
+img {
+  max-width: 100%;
+}
+
+/* default margins and paddings */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 0 7%;
+}
+
+/* type */
+
+h1 {
+  font-size: 5em;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  margin-bottom: 0;
+  padding-bottom: 0.25em;
+  font-family: "Open Sans Condensed", "Georgia", serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.6em;
+  letter-spacing: 0.04em;
+  font-family: "Open Sans Condensed", "Georgia", serif;
+}
+
+h3 {
+  font-family: "IBM Plex Serif", "Georgia", serif;
+  font-size: 1.3em;
+  font-weight: 600i;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+}
+
+h4 {
+  font-size: 1.1em;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 700;
+}
+
+a, a:visited {
+  color: #756e70;
+  text-decoration: none;
+  transition: color 0.5s ease-out;
+}
+
+a:hover, a:active {
+  color: #e57165;
+  text-decoration: none;
+}
+
+.next-pg, .prev-pg {
+  font-family: "IBM Plex Serif", "Georgia", serif;
+  font-size: 1em;
+  font-weight: 600i;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  padding-top: 1em;
+}
+
+.next-pg {
+  float: right;
+}
+
+.prev-pg {
+  float: left;
+}
+
+p, li, figcaption {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-size: 0.9em;
+  font-style: italic;
+}

@@ -1,0 +1,97 @@
+/* add space from nav bar and footer */
+
+/* #about, #spring-lunch, #alice, #styleguide {
+  padding: 7em 0;
+} */
+
+
+/* home page */
+.banner {
+  color: #fff;
+  /* text-align: center; */
+  background: #e57165;
+}
+
+.banner-content {
+  padding: 7em 0;
+  text-align: center;
+}
+
+#work {
+  margin: 4em 0;
+}
+
+#work h3 {
+  text-transform: none;
+}
+
+#work p {
+  margin-top: -1.9em;
+}
+
+/* project page */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.project img, .carousel {
+  box-shadow: 1px 1px 6px 0 rgba(0,0,0,.1);
+}
+
+.project figcaption {
+  padding-bottom: 1em;
+}
+
+.project .row, #styleguide .row {
+  padding: 2.5em 0;
+}
+
+#about .box, #about img {
+  margin-top: 2em;
+}
+
+/* styleguide */
+/* #styleguide img {
+  width: 200px;
+  height: auto;
+  padding-bottom: 1.5em;
+} */
+
+.box-gray {
+  width: 100%;
+  height: 125px;
+  display: inline-block;
+  background-color: #f4f4f4;
+}
+
+.box-coral, .box-teal, .box-yellow {
+  width: 100%;
+  height: 140px;
+  margin-top: -2em;
+  display: inline-block;
+  background-color: #e57165;
+}
+
+.box-coral {
+  background-color: #e57165;
+}
+
+.box-teal {
+  background-color: #36bbc9;
+}
+
+.box-yellow {
+  background-color: #f9e073;
+}
+
+#styleguide h1 {
+  color: #000;
+  margin-top: -0.025em;
+}
+
+#styleguide h2, h3, h4, p {
+  padding: 1em 0;
+}
