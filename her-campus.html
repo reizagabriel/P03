@@ -15,23 +15,22 @@
   </head>
 
   <body>
-    <div class="banner">
-      <div id="myNav" class="overlay">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="overlay-content">
-          <a href="index.html">Home</a>
-          <a href="index.html/#work">Work</a>
-          <a href="about.html">About</a>
-          <a href="styleguide.html">Styleguide</a>
-        </div>
+    <nav class="header">
+      <div class="container">
+        <!-- <a href="index.html"><img class="logo" src="img/logo-dark-coral.png" alt="Logo"/></a> -->
+        <a href="index.html" class="site-title">Reiza Gabriel</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="index.html#work">Work</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
       </div>
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-      <script src="js/menu.js"></script>
+    </nav>
 
-      <div class="banner-content">
-        <h1>Her Campus at SFU</h1>
-        <h2>Write articles for an online magazine.</h2>
-      </div>
+    <div class="banner">
+      <h1>Her Campus at SFU</h1>
+      <h2>Write articles for an online magazine.</h2>
     </div>
 
     <main class="project">

@@ -12,35 +12,32 @@
   list-style: none;
   overflow: hidden;
   background-color: #fff;
-  padding-right: 13%;
 }
 
 .header li a {
+  padding: 0.5em 0;
   display: block;
-  padding: 20px 20px;
-  /* padding: 1.25em 1.25em; */
-  /* padding: 1.25em 3em 1.25em 0; */
   color: #000;
   border-right: 1px solid #f4f4f4;
-  text-transform: uppercase;
-  font-size: 0.75em;
-  font-family: "Brandon Grotesque", "Arial", sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.15em;
+  font-size: 1em;
+  font-family: "Playfair Display", "Arial", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
 }
 
-/* .header li a:hover,
+.header li a:hover,
 .header li a:active,
 .header .menu-btn:hover {
-  background-color: #f1a89f;
-  color: #fff;
-} */
+  background-color: #f9e073;
+  transition: background-color 0.3s ease-in;
+  text-decoration: none;
+}
 
 .header .logo {
   display: block;
   float: left;
-  /* padding: 7px 20px; */
-  padding: 10px 20px 0px 10%;
+  padding: 10px 20px 0px 10px;
+  /* padding: 10px 20px 0px 10%; */
   height: 50px;
   width: auto;
 }
@@ -48,7 +45,8 @@
 .header .site-title {
   display: block;
   float: left;
-  padding: 15px 0 10px 12%;
+  padding: 0.7em 0;
+  /* padding: 15px 0 10px 0; */
   color: #000;
   font-size: 1.5em;
   text-decoration: none;

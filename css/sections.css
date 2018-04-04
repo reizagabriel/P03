@@ -4,17 +4,13 @@
   padding: 7em 0;
 } */
 
-/* home page */
-.banner {
-  background: #cee2e1;
-  color: #fff;
-}
 
 .banner {
+  background: #cee2e1;
   margin: 0;
-  padding: 0;
+  padding-top: 4em;
   position: relative;
-  color: white;
+  color: #fff;
   text-align: center;
 }
 
