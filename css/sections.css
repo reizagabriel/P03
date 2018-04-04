@@ -65,12 +65,13 @@
   margin: 4em 0;
 }
 
-#work h3 {
+#work a {
   text-transform: none;
+  color: black;
 }
 
 #work p {
-  margin-top: -1.9em;
+  margin-top: -1.7em;
 }
 
 /* project page */
@@ -90,7 +91,7 @@
 }
 
 .project .row, #styleguide .row {
-  padding: 2.5em 0;
+  padding: 1em 0;
 }
 
 #about .box, #about img {
