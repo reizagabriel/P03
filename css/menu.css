@@ -1,22 +1,25 @@
-/* Add a black background color to the top navigation */
+.logo {
+  height: 50px;
+}
+
 .topnav {
-    background-color: transparent;
-    overflow: hidden;
+  background-color: white;
+  overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: right;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 1em 1.3em;
-    text-decoration: none;
-    font-family: "Open Sans Condensed", "Georgia", serif;
-    font-size: 1.25em;
-    font-weight: 300;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 1em 1.3em;
+  text-decoration: none;
+  font-family: "Open Sans Condensed", "Georgia", serif;
+  font-size: 1.25em;
+  font-weight: 300;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
 }
 
 .topnav h1 {

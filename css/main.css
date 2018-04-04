@@ -15,22 +15,22 @@ body {
 
 /* type */
 
-h1 {
-  font-size: 5em;
-  color: #fff;
+/* h1 {
+  font-size: 5.5em;
   font-weight: 400;
   letter-spacing: 0.2em;
   margin-bottom: 0;
   padding-bottom: 0.25em;
-  font-family: "Open Sans Condensed", "Georgia", serif;
+  font-family: "Futura", "Georgia", serif;
   text-transform: uppercase;
 }
 
 h2 {
   font-size: 1.6em;
+  font-weight: 300;
   letter-spacing: 0.04em;
-  font-family: "Open Sans Condensed", "Georgia", serif;
-}
+  font-family: "Open Sans", "Georgia", serif;
+} */
 
 h3 {
   font-family: "IBM Plex Serif", "Georgia", serif;

@@ -4,18 +4,58 @@
   padding: 7em 0;
 } */
 
-
 /* home page */
 .banner {
+  background: #cee2e1;
   color: #fff;
-  /* text-align: center; */
-  background: #e57165;
+  /* background-image: url("../img/bg-geometric-coral-01-01.png"); */
 }
 
 .banner-content {
-  padding: 7em 0;
+  padding: 6em 0;
+  position: relative;
   text-align: center;
+  color: white;
 }
+
+#banner-logo {
+  height: 425px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-content h1 {
+  color: #e57165;
+  font-size: 5em;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  margin-bottom: 0;
+  padding-bottom: 0.25em;
+  font-family: "Futura", "Georgia", serif;
+  text-transform: uppercase;
+}
+
+.banner-content h2 {
+  color: black;
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.04em;
+  font-family: "Playfair Display", "Georgia", serif;
+}
+
+/* .banner-box {
+  width: 500px;
+  height: auto;
+  background: black;
+  position: absolute;
+  z-index: 2;
+} */
 
 #work {
   margin: 4em 0;
