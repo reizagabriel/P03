@@ -16,7 +16,7 @@ h1 {
   font-size: 4.25em;
   font-weight: 400;
   letter-spacing: 0.1em;
-  font-family: "Futura", "Georgia", serif;
+  font-family: "Futura", "Verdana", serif;
   text-transform: uppercase;
 }
 
@@ -55,16 +55,17 @@ h3 {
 }
 
 a, a:visited {
-  color: #e57165;
+  /* color: #e57165; */
+  font-weight: 700;
   text-decoration: none;
 }
 
 /* mouseover color */
-a:hover, a:focus, a:active {
+/* a:hover, a:focus, a:active {
   color: #82807e;
   transition: color 0.5s ease-in;
   text-decoration: none;
-}
+} */
 
 /* mouseover highlight */
 .hover-highlight {
@@ -130,15 +131,15 @@ a:hover, a:focus, a:active {
 
 p, li, figcaption {
   font-family: "Open Sans", "Arial", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.15em;
   line-height: 1.8em;
   margin: 0;
   padding: 0 0 -1em 0;
 }
 
-.bold {
-  font-weight: 700;
+.move-up {
+  margin-top: -1.5em;
 }
 
 figcaption {
