@@ -61,7 +61,7 @@ a, a:visited {
 
 /* a:hover, a:focus, a:active {
   transition: background 0.5s ease-in;
-  background: #f9e073;
+  background: #ffeda0;
   text-decoration: none;
 } */
 
@@ -86,7 +86,7 @@ a, a:visited {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #f9e073;
+  background: #ffeda0;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transform-origin: 0 50%;

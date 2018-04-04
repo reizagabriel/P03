@@ -28,7 +28,7 @@
 .header li a:hover,
 .header li a:active,
 .header .menu-btn:hover {
-  background-color: #f9e073;
+  background-color: #ffeda0;
   transition: background-color 0.3s ease-in;
   text-decoration: none;
 }
