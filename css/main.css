@@ -59,10 +59,12 @@ a, a:visited {
   text-decoration: none;
 }
 
-/* a:hover, a:focus, a:active {
-  transition: background 0.5s ease-in;
+/* mouseover color */
+a:hover, a:focus, a:active {
+  color: #82807e;
+  transition: color 0.5s ease-in;
   text-decoration: none;
-} */
+}
 
 /* mouseover highlight */
 .hover-highlight {
@@ -109,12 +111,13 @@ a, a:visited {
 }
 
 .next-pg, .prev-pg {
-  font-family: "IBM Plex Serif", "Georgia", serif;
-  font-size: 1em;
-  font-weight: 600i;
+  font-family: "Playfair Display", "Georgia", serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  font-style: italic;
   letter-spacing: 0.05em;
-  text-transform: lowercase;
-  /* padding-top: 1em; */
+  margin: 1.25em 0;
+  color: black !important;
 }
 
 .next-pg {
@@ -132,6 +135,10 @@ p, li, figcaption {
   line-height: 1.8em;
   margin: 0;
   padding: 0 0 -1em 0;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 figcaption {
