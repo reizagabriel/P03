@@ -1,65 +1,26 @@
-/* add space from nav bar and footer */
+/* home */
 
-/* #about, #spring-lunch, #alice, #styleguide {
-  padding: 7em 0;
-} */
-
-
-.banner {
-  background: #cee2e1;
-  margin: 0;
-  padding-top: 4em;
-  position: relative;
-  color: #fff;
-  text-align: center;
-}
-
-/* .banner-content img {
-  height: 425px;
-} */
-
-#initials {
-  /* margin-top:-5em; */
+/* #initials {
   padding: 0;
   font-size: 40em;
   font-weight: 700;
   letter-spacing: 0.1em;
   font-family: "Playfair Display", "Georgia", serif;
-}
+} */
 
-.banner-text {
+.banner-txt-overlap {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.banner h1 {
-  color: #e57165;
+#home h1 {
   font-size: 5em;
-  font-weight: 400;
   letter-spacing: 0.2em;
   margin-bottom: 0;
   padding-bottom: 0.25em;
-  font-family: "Futura", "Georgia", serif;
-  text-transform: uppercase;
 }
-
-.banner h2 {
-  color: black;
-  font-size: 1.5em;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  font-family: "Playfair Display", "Georgia", serif;
-}
-
-/* .banner-box {
-  width: 500px;
-  height: auto;
-  background: black;
-  position: absolute;
-  z-index: 2;
-} */
 
 #work {
   margin: 4em 0;
@@ -73,6 +34,7 @@
 #work p {
   margin-top: -1.7em;
 }
+
 
 /* project page */
 
@@ -99,6 +61,7 @@
 }
 
 /* styleguide */
+
 /* #styleguide img {
   width: 200px;
   height: auto;

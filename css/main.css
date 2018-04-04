@@ -11,24 +11,22 @@ body {
   padding: 0 7%;
 }
 
-/* type */
-
-/* h1 {
-  font-size: 5.5em;
+h1 {
+  color: #e57165;
+  font-size: 4.25em;
   font-weight: 400;
-  letter-spacing: 0.2em;
-  margin-bottom: 0;
-  padding-bottom: 0.25em;
+  letter-spacing: 0.1em;
   font-family: "Futura", "Georgia", serif;
   text-transform: uppercase;
 }
 
 h2 {
-  font-size: 1.6em;
-  font-weight: 300;
+  color: black;
+  font-size: 1.5em;
+  font-weight: 700;
   letter-spacing: 0.04em;
-  font-family: "Open Sans", "Georgia", serif;
-} */
+  font-family: "Playfair Display", "Georgia", serif;
+}
 
 h3 {
   font-family: "Playfair Display", "Georgia", serif;
@@ -36,33 +34,38 @@ h3 {
   font-weight: 700;
   color: black;
   letter-spacing: 0.05em;
-  padding: 0;
-  margin: 0;
 }
 
-/* h3:after {
-  content:"";
-  position:absolute;
-  bottom: 1em;
-  left: 10%;
-  display:inline-block;
-  width: 50%;
-  margin-left: -11px;
-  border-bottom: #36bbc9 solid 1em;
-} */
+.banner {
+  background: #cee2e1;
+  margin: 0;
+  padding-top: 4em;
+  position: relative;
+  text-align: center;
+}
 
-/* a, a:visited {
-  color: #756e70;
+.banner h1 {
+  margin: 0;
+  padding: 2em 0 0 0;
+}
+
+.banner h2 {
+  margin: 0;
+  padding: 1em 0 5em 0;
+}
+
+a, a:visited {
+  color: #e57165;
   text-decoration: none;
 }
 
-a:hover, a:focus, a:active {
+/* a:hover, a:focus, a:active {
   transition: background 0.5s ease-in;
   background: #f9e073;
   text-decoration: none;
 } */
 
-/* Sweep To Right */
+/* mouseover highlight */
 .hover-highlight {
   color: #8c8988;
   display: inline-block;
@@ -95,10 +98,12 @@ a:hover, a:focus, a:active {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
+
 .hover-highlight:hover, .hover-highlight:focus, .hover-highlight:active {
   text-decoration: none;
   color: black;
 }
+
 .hover-highlight:hover:before, .hover-highlight:focus:before, .hover-highlight:active:before {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
