@@ -139,4 +139,8 @@
     transform: translate(-50%, -50%);
   }
 
+  .project-logo {
+    display: none;
+  }
+
 }
