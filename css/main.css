@@ -39,9 +39,10 @@ h3 {
 .banner {
   background: #cee2e1;
   margin: 0;
-  padding-top: 4em;
   position: relative;
   text-align: center;
+  width: 100%;
+  padding-top: 4em;
 }
 
 .banner h1 {
