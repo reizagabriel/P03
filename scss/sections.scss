@@ -1,0 +1,164 @@
+/* home */
+
+#initials {
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  padding: 0;
+  font-size: 40em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-family: "Playfair Display", "Georgia", serif;
+}
+
+.banner-txt-overlap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home h1 {
+  font-size: 5em;
+  letter-spacing: 0.2em;
+  margin-bottom: 0;
+  padding-bottom: 0.25em;
+}
+
+#work {
+  margin: 4em 0;
+}
+
+#work a {
+  text-transform: none;
+  color: black;
+}
+
+#work p {
+  margin-top: -1.7em;
+}
+
+/* project page */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.project img, .carousel {
+  box-shadow: 1px 1px 6px 0 rgba(0,0,0,.1);
+}
+
+.project .container {
+  padding-top: 3em;
+}
+
+.project p {
+  padding-top: 0.4em;
+}
+
+.project h1, .project h2 {
+  text-align: left;
+}
+
+.project h3 {
+  padding-top: 0.6em;
+}
+
+.project figcaption {
+  padding-bottom: 1em;
+}
+
+.project .row, #styleguide .row {
+  padding: 1em 0;
+}
+
+.project-logo {
+  padding: 6.25em 2.5em 5em 0;
+  text-align: left;
+  box-shadow: 0px 0px 0px 0px;
+}
+
+
+/* styleguide */
+
+.box-gray {
+  width: 100%;
+  height: 125px;
+  display: inline-block;
+  background-color: #f4f4f4;
+}
+
+.box-coral, .box-mint, .box-yellow {
+  width: 100%;
+  height: 140px;
+  display: inline-block;
+  background-color: #e57165;
+}
+
+.box-coral {
+  background-color: #e57165;
+}
+
+.box-mint {
+  background-color: #cee2e1;
+}
+
+.box-yellow {
+  background-color: #ffeda0;
+}
+
+#styleguide h1 {
+  color: #000;
+  margin-top: -0.025em;
+}
+
+#styleguide h2, h3, h4, p {
+  padding: 1em 0;
+}
+
+/* media queries */
+@media only screen and (max-width: 800px) { /* phone */
+  .banner {
+    font-size: 0.85em;
+  }
+
+  #home .banner {
+    height: 42em;
+    width: auto;
+  }
+
+  #home .banner h1 {
+    margin: 0;
+    padding: 4.6em 0 0 0;
+    font-size: 3em;
+  }
+
+  #home .banner h2 {
+    margin-top: -1em;
+  }
+
+  #home .banner img {
+    padding-top: 9em;
+  }
+
+  .banner-txt-overlap {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .project-logo {
+    display: none;
+  }
+
+  #wonderland {
+    font-size: 0.6em;
+  }
+
+  figure {
+    margin: 0;
+  }
+
+}
