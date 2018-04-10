@@ -147,4 +147,8 @@
     font-size: 0.6em;
   }
 
+  figure {
+    margin: 0;
+  }
+
 }
