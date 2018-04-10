@@ -125,10 +125,6 @@ a, a:visited {
   float: right;
 }
 
-.prev-pg {
-  float: left;
-}
-
 p, li, figcaption {
   font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
